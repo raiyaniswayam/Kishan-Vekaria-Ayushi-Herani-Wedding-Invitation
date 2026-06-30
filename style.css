@@ -618,12 +618,12 @@ a { text-decoration: none; color: inherit; }
 
 .gallery-slide {
   flex-shrink: 0;
-  width: 380px;
-  height: 280px;
-  border-radius: 16px;
+  width: 450px;
+  height: 330px;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
-  border: 3px solid white;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.09);
+  border: 4px solid white;
   cursor: pointer;
 }
 
@@ -1000,7 +1000,7 @@ a { text-decoration: none; color: inherit; }
   .couple-ampersand { font-size: 2.5rem; padding-bottom: 0; }
   .couple-photo-frame { width: 220px; height: 300px; }
   .events-grid { grid-template-columns: 1fr; }
-  .gallery-slide { width: 300px; height: 220px; }
+  .gallery-slide { width: 380px; height: 280px; }
 }
 
 @media (max-width: 768px) {
@@ -1029,7 +1029,7 @@ a { text-decoration: none; color: inherit; }
   .venue-grid { grid-template-columns: 1fr; }
   .countdown-container { gap: 20px; }
 
-  .gallery-slide { width: 260px; height: 190px; }
+  .gallery-slide { width: 310px; height: 230px; }
   .music-toggle {
     bottom: calc(32px + env(safe-area-inset-bottom, 0px));
     right: calc(24px + env(safe-area-inset-right, 0px));
