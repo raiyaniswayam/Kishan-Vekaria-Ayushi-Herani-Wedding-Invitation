@@ -42,13 +42,19 @@
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  overflow-x: hidden;
+  width: 100%;
+}
 
 body {
   font-family: var(--font-body);
   background: var(--linen);
   color: var(--text-primary);
   overflow-x: hidden;
+  width: 100%;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
@@ -368,7 +374,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* ─── Section Shared ─── */
-.section { padding: 100px 24px; position: relative; }
+.section { padding: 100px 24px; position: relative; overflow-x: hidden; }
 .section-container { max-width: 1060px; margin: 0 auto; }
 
 .section-header { text-align: center; margin-bottom: 60px; }
@@ -1036,6 +1042,9 @@ a { text-decoration: none; color: inherit; }
 @media (max-width: 480px) {
   .hero-names { font-size: 2.8rem; }
   .hero-pre-title { font-size: 0.65rem; letter-spacing: 4px; }
-  .countdown-value { font-size: 1.8rem; }
+  .countdown-container { gap: 10px; margin-top: 30px; }
+  .countdown-item { min-width: 58px; }
+  .countdown-value { font-size: 1.5rem; }
+  .countdown-label { font-size: 0.52rem; letter-spacing: 1px; }
   .rsvp-attending-options { flex-direction: column; }
 }
