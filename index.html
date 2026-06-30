@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kishan & Ayushi — Wedding Celebration | July 19, 2026</title>
+  <meta name="description" content="Join us in celebrating the wedding of Ayushi Hirani and Kishan Vekaria on July 19, 2026, at Villa Tuscana, Mesa, AZ. Sangeet, Ring Ceremony & Wedding.">
+  <meta name="keywords" content="Kishan Ayushi wedding, Indian wedding, Villa Tuscana Mesa, wedding invitation 2026">
+  <meta property="og:title" content="Kishan & Ayushi — Wedding Celebration">
+  <meta property="og:description" content="Join us in celebrating love, laughter, and new beginnings — July 19, 2026">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💍</text></svg>">
+</head>
+<body>
+
+  <!-- ═══════════ Welcome Screen Overlay ═══════════ -->
+  <div class="welcome-screen" id="welcome-screen">
+    <div class="welcome-bg">
+      <img src="f5b28707-586c-411d-877a-2d948e8f2097.jpg" alt="">
+    </div>
+    <div class="welcome-content">
+      <div class="welcome-ornament"></div>
+      <p class="welcome-label">You're Invited</p>
+      <h1 class="welcome-names">Ayushi & Kishan</h1>
+      <p class="welcome-date">July 19, 2026 · Mesa, Arizona</p>
+      <div class="welcome-divider"></div>
+      <button class="welcome-enter" id="welcome-enter">Open Invitation</button>
+    </div>
+  </div>
+
+
+  <!-- ═══════════ Background Music ═══════════ -->
+  <!-- 
+    🎵 INDIAN WEDDING MUSIC 🎵
+    To use your own Indian wedding song:
+    1. Place your .mp3 file in this same folder (e.g., "wedding-song.mp3")
+    2. Update the src below to match your filename
+    Currently using a pleasant instrumental from SoundHelix as placeholder.
+  -->
+  <audio id="bg-music" loop preload="auto" autoplay muted>
+    <source src="Edd_Sheeran_-_Perfect_(mp3.pm).mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-toggle" id="music-toggle" aria-label="Toggle Music">🎵</button>
+
+  <!-- ═══════════ Navigation ═══════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">K & A</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#couple">Our Story</a></li>
+        <li><a href="#events">Schedule</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#venue">Venue</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#rsvp">RSVP</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ Hero Section ═══════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="d3511235-7408-42f4-bf69-ba5b7655cc63.jpg" alt="Kishan and Ayushi together">
+    </div>
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+
+      <p class="hero-pre-title">We're Getting Married</p>
+      
+      <h1 class="hero-names">
+        Ayushi
+        <span class="hero-ampersand">&</span>
+        Kishan
+      </h1>
+      
+      <div class="hero-divider"></div>
+      
+      <p class="hero-date">July 19, 2026 · Mesa, Arizona</p>
+      <p class="hero-venue-text">Villa Tuscana</p>
+      
+      <div class="countdown-container">
+        <div class="countdown-item">
+          <div class="countdown-value" id="countdown-days">--</div>
+          <div class="countdown-label">Days</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-value" id="countdown-hours">--</div>
+          <div class="countdown-label">Hours</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-value" id="countdown-minutes">--</div>
+          <div class="countdown-label">Minutes</div>
+        </div>
+        <div class="countdown-item">
+          <div class="countdown-value" id="countdown-seconds">--</div>
+          <div class="countdown-label">Seconds</div>
+        </div>
+      </div>
+    </div>
+    
+
+  </section>
+
+  <!-- ═══════════ Our Story Section ═══════════ -->
+  <section class="section couple-section" id="couple">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">Our Journey</span>
+        <h2 class="section-title">Our Story</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">A love worth celebrating.</p>
+      </div>
+
+      <div class="story-text reveal-blur">
+        <p>Some moments become unforgettable because of the people who share them. After years of laughter, late-night talks, and quiet adventures, Ayushi and Kishan are ready to begin their next chapter together.</p>
+      </div>
+      
+      <div class="couple-content">
+        <div class="couple-person reveal-left reveal-delay-1">
+          <div class="couple-photo-frame">
+            <img src="e8a11b0a-a009-491c-801e-3ddbc39cb810.jpg" alt="Ayushi Hirani">
+          </div>
+          <h3 class="couple-name">Ayushi</h3>
+          <p class="couple-full-name">Ayushi Hirani</p>
+        </div>
+        
+        <div class="couple-ampersand reveal-scale reveal-delay-2">&</div>
+        
+        <div class="couple-person reveal-right reveal-delay-3">
+          <div class="couple-photo-frame">
+            <img src="f5b28707-586c-411d-877a-2d948e8f2097.jpg" alt="Kishan Vekaria">
+          </div>
+          <h3 class="couple-name">Kishan</h3>
+          <p class="couple-full-name">Kishan Vekaria</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ Quote Section ═══════════ -->
+  <section class="quote-section">
+    <p class="quote-text reveal-blur">
+      "Please join us as we celebrate love, laughter, and new beginnings — your presence and blessings are the greatest gift we could ask for." ✨
+    </p>
+  </section>
+
+  <!-- ═══════════ Events / Schedule Section ═══════════ -->
+  <section class="section events-section" id="events">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-ornament">🎊</span>
+        <span class="section-label">Join the Celebrations</span>
+        <h2 class="section-title">Wedding Events</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Two days of joyous celebrations filled with love, music, and togetherness.</p>
+      </div>
+      
+      <div class="events-grid">
+        <!-- Friday Lunch -->
+        <div class="event-card reveal-left reveal-delay-1">
+          <div class="event-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg></div>
+          <p class="event-date">Friday, July 17, 2026</p>
+          <h3 class="event-name">Lunch</h3>
+          <p class="event-time">12:00 PM</p>
+          <p class="event-venue-address">📍 Home — 3754 S Gladiolus, Mesa, AZ 85212</p>
+        </div>
+
+        <!-- Sangeet / Ring Ceremony -->
+        <div class="event-card reveal-right reveal-delay-2">
+          <div class="event-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+          <p class="event-date">Friday, July 17, 2026</p>
+          <h3 class="event-name">Sangeet & Ring Ceremony</h3>
+          <p class="event-time">5:30 PM — 11:00 PM</p>
+          <p class="event-venue-address">📍 Villa Tuscana — 1915 W Guadalupe Rd, Mesa, AZ 85202</p>
+          <p class="event-description">
+            Come dressed to sparkle, ready to celebrate, and fully prepared to lose your voice screaming for the couple! ✨
+          </p>
+          <div class="event-warning">
+            <strong>⚠️ WARNING:</strong> This night may include excessive dancing, loud cheering, emotional family performances, and questionable dance moves.
+          </div>
+        </div>
+
+        <!-- Mandap & Haldi -->
+        <div class="event-card reveal-left reveal-delay-1">
+          <div class="event-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></div>
+          <p class="event-date">Saturday, July 18, 2026</p>
+          <h3 class="event-name">Mandap & Haldi Ceremony</h3>
+          <p class="event-time">4:00 PM — 7:30 PM</p>
+          <p class="event-venue-address">📍 The Post — 26 N MacDonald, Mesa, AZ 85201</p>
+        </div>
+        
+        <!-- Wedding Day -->
+        <div class="event-card reveal-right reveal-delay-2">
+          <div class="event-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+          <p class="event-date">Sunday, July 19, 2026</p>
+          <h3 class="event-name">Wedding Ceremony</h3>
+          <p class="event-time">8:00 AM — 3:00 PM</p>
+          <p class="event-venue-address">📍 Villa Tuscana — 1915 W Guadalupe Rd, Mesa, AZ 85202</p>
+          
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-time">8:00 AM</span>
+              <div>
+                <p class="timeline-event-name">Wedding Breakfast</p>
+                <p class="timeline-event-desc">Join us for breakfast before the festivities begin.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-time">9:00 AM</span>
+              <div>
+                <p class="timeline-event-name">Baraat</p>
+                <p class="timeline-event-desc">The groom's procession and celebration begins.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-time">10:15 AM</span>
+              <div>
+                <p class="timeline-event-name">Varmala Ceremony</p>
+                <p class="timeline-event-desc">The exchange of garlands celebrating the union.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-time">2:20 PM</span>
+              <div>
+                <p class="timeline-event-name">Vidai</p>
+                <p class="timeline-event-desc">A heartfelt farewell as the couple begins their new journey together.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ Gallery Section ═══════════ -->
+  <section class="section gallery-section" id="gallery">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-label">Captured Moments</span>
+        <h2 class="section-title">Our Gallery</h2>
+        <div class="section-divider"></div>
+      </div>
+    </div>
+    
+    <div class="gallery-marquee">
+      <div class="gallery-track">
+        <div class="gallery-slide">
+          <img src="d3511235-7408-42f4-bf69-ba5b7655cc63.jpg" alt="Kishan and Ayushi dancing by the lake">
+        </div>
+        <div class="gallery-slide">
+          <img src="e8a11b0a-a009-491c-801e-3ddbc39cb810.jpg" alt="Kishan and Ayushi hand in hand">
+        </div>
+        <div class="gallery-slide">
+          <img src="f5b28707-586c-411d-877a-2d948e8f2097.jpg" alt="Kishan and Ayushi under the trees">
+        </div>
+        <div class="gallery-slide">
+          <img src="e124b8ef-5114-4175-afeb-a162e3700318.jpg" alt="Kishan and Ayushi black and white">
+        </div>
+        <!-- Duplicate for seamless loop -->
+        <div class="gallery-slide">
+          <img src="d3511235-7408-42f4-bf69-ba5b7655cc63.jpg" alt="Kishan and Ayushi dancing by the lake">
+        </div>
+        <div class="gallery-slide">
+          <img src="e8a11b0a-a009-491c-801e-3ddbc39cb810.jpg" alt="Kishan and Ayushi hand in hand">
+        </div>
+        <div class="gallery-slide">
+          <img src="f5b28707-586c-411d-877a-2d948e8f2097.jpg" alt="Kishan and Ayushi under the trees">
+        </div>
+        <div class="gallery-slide">
+          <img src="e124b8ef-5114-4175-afeb-a162e3700318.jpg" alt="Kishan and Ayushi black and white">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ Venue Section ═══════════ -->
+  <section class="section venue-section" id="venue">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-ornament">📍</span>
+        <span class="section-label">Where to Find Us</span>
+        <h2 class="section-title">Venue & Stay</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="venue-grid">
+        <div class="venue-card reveal-left reveal-delay-1">
+          <div class="venue-icon">🏛️</div>
+          <h3 class="venue-name">Villa Tuscana</h3>
+          <p class="venue-address">
+            1915 W Guadalupe Rd<br>
+            Mesa, AZ 85202
+          </p>
+          <p class="venue-note">The venue for both the Sangeet/Ring Ceremony and the Wedding Day celebrations.</p>
+          <a href="https://maps.google.com/?q=1915+W+Guadalupe+Rd+Mesa+AZ+85202" target="_blank" class="venue-btn">Get Directions</a>
+        </div>
+        
+        <div class="venue-card reveal-right reveal-delay-2">
+          <div class="venue-icon">🏨</div>
+          <h3 class="venue-name">Spark by Hilton Phoenix East Mesa</h3>
+          <p class="venue-address">
+            4470 South Power Road<br>
+            Mesa, AZ 85212
+          </p>
+          <p class="venue-note">For out-of-town guests, we've listed a nearby hotel for convenience. You're welcome to stay there or book accommodations that work best for you.</p>
+          <a href="https://maps.google.com/?q=4470+South+Power+Road+Mesa+AZ+85212" target="_blank" class="venue-btn">View Hotel</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════ Good to Know Section ═══════════ -->
+  <section class="section info-section" id="info">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-ornament">🪔</span>
+        <span class="section-label">Before You Arrive</span>
+        <h2 class="section-title">Good to Know</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="info-grid">
+        <div class="info-card reveal-rotate reveal-delay-1">
+          <div class="info-card-icon">👗</div>
+          <h3 class="info-card-title">Dress Code</h3>
+          <p class="info-card-text">Indian festive for Sangeet · Indian formal / black tie optional for the wedding.</p>
+        </div>
+        
+        <div class="info-card reveal-rotate reveal-delay-2">
+          <div class="info-card-icon">🍽️</div>
+          <h3 class="info-card-title">Cuisine</h3>
+          <p class="info-card-text">A curated selection of traditional and fusion Indian cuisine with non-alcoholic drinks.</p>
+        </div>
+        
+        <div class="info-card reveal-rotate reveal-delay-3">
+          <div class="info-card-icon">🚗</div>
+          <h3 class="info-card-title">Parking & Rides</h3>
+          <p class="info-card-text">Complimentary onsite parking. Uber & Lyft accessible day and night.</p>
+        </div>
+        
+        <div class="info-card reveal-rotate reveal-delay-4">
+          <div class="info-card-icon">🎁</div>
+          <h3 class="info-card-title">Registry</h3>
+          <p class="info-card-text">Your presence is the greatest gift. We kindly request no boxed gifts at the celebration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FAQ Section ═══════════ -->
+  <section class="section faq-section" id="faq">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-ornament">💬</span>
+        <span class="section-label">Have Questions?</span>
+        <h2 class="section-title">Frequently Asked</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="faq-grid">
+        <div class="faq-item reveal reveal-delay-1">
+          <div class="faq-question">
+            <h3>Where Can I Find the Wedding Registry?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Your presence at our wedding is the greatest gift we could ask for. We are not registered for physical gifts and kindly request no boxed gifts at the celebration.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal reveal-delay-2">
+          <div class="faq-question">
+            <h3>Is There a Dress Code?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <strong>Sangeet / Ring Ceremony:</strong> Cocktail or Indian festive attire is encouraged. Think vibrant colors, glam details, and outfits perfect for an evening full of dancing and celebration. Guests are welcome to wear traditional Indian attire, fusion wear, or cocktail attire.<br><br>
+              <strong>Wedding Ceremony:</strong> Indian Formal Attire / Black Tie Optional. Traditional Indian attire such as sarees, lehengas, sherwanis, and kurtas are warmly encouraged.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal reveal-delay-3">
+          <div class="faq-question">
+            <h3>Is the Venue Accessible by Ride-Share Services Like Uber?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Yes, the venue is accessible via ride-share services during the day and night.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal reveal-delay-4">
+          <div class="faq-question">
+            <h3>Does the Venue Have Parking?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Yes, complimentary parking will be available onsite.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <h3>What Kind of Food Will There Be at the Wedding?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              A thoughtfully curated selection of traditional and fusion Indian cuisine will be served, along with non-alcoholic drinks.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item reveal">
+          <div class="faq-question">
+            <h3>What Time Is the Wedding?</h3>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Please refer to the "Schedule" section above for detailed event timings. The Sangeet is on Friday, July 17 (5:30 PM – 11:00 PM) and the Wedding is on Sunday, July 19 (8:00 AM – 3:00 PM).
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ RSVP Section ═══════════ -->
+  <section class="section rsvp-section" id="rsvp">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-ornament">💌</span>
+        <span class="section-label">We'd Love Your Response</span>
+        <h2 class="section-title">RSVP</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Kindly let us know if you'll be joining us on our special day.</p>
+      </div>
+      
+      <div class="rsvp-form-container reveal">
+        <form id="rsvp-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="rsvp-firstname">First Name</label>
+              <input type="text" id="rsvp-firstname" name="firstname" placeholder="Your first name" required>
+            </div>
+            <div class="form-group">
+              <label for="rsvp-lastname">Last Name</label>
+              <input type="text" id="rsvp-lastname" name="lastname" placeholder="Your last name" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="rsvp-email">Email Address</label>
+            <input type="email" id="rsvp-email" name="email" placeholder="your@email.com" required>
+          </div>
+          
+          <div class="form-group">
+            <label>Will You Be Attending?</label>
+            <div class="rsvp-attending-options">
+              <div class="attend-option">
+                <input type="radio" id="attend-yes" name="attending" value="yes" required>
+                <label for="attend-yes">🎉 Joyfully Accept</label>
+              </div>
+              <div class="attend-option">
+                <input type="radio" id="attend-no" name="attending" value="no">
+                <label for="attend-no">💔 Regretfully Decline</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="rsvp-guests">Number of Guests</label>
+              <select id="rsvp-guests" name="guests">
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5+ Guests</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="rsvp-event">Attending Event</label>
+              <select id="rsvp-event" name="event">
+                <option value="both">Both Events</option>
+                <option value="sangeet">Sangeet / Ring Ceremony Only</option>
+                <option value="wedding">Wedding Day Only</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="rsvp-dietary">Dietary Restrictions / Allergies</label>
+            <input type="text" id="rsvp-dietary" name="dietary" placeholder="Any special requirements?">
+          </div>
+          
+          <div class="form-group">
+            <label for="rsvp-message">Message for the Couple</label>
+            <textarea id="rsvp-message" name="message" placeholder="Share your blessings or a sweet message for Kishan & Ayushi..."></textarea>
+          </div>
+          
+          <button type="submit" class="rsvp-submit">
+            <span>Send RSVP ✨</span>
+          </button>
+        </form>
+        
+        <div class="rsvp-success">
+          <div class="rsvp-success-icon">🎊</div>
+          <h3>Thank You!</h3>
+          <p>Your RSVP has been received. We can't wait to celebrate with you!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ Footer ═══════════ -->
+  <footer class="footer">
+    <p class="footer-names">Kishan & Ayushi</p>
+    <p class="footer-date">July 19, 2026 · Mesa, Arizona</p>
+    <div class="footer-divider"></div>
+    <p class="footer-tagline">"Two souls, one beautiful journey."</p>
+    <div class="footer-hearts">♡ ♡ ♡</div>
+  </footer>
+
+  <!-- ═══════════ Lightbox ═══════════ -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Close">✕</button>
+    <img src="" alt="Gallery photo enlarged">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
