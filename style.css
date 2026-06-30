@@ -219,6 +219,14 @@ a { text-decoration: none; color: inherit; }
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   transition: var(--transition);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.music-toggle.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 .music-toggle:hover { transform: scale(1.06); box-shadow: 0 12px 40px rgba(88, 129, 87, 0.35); }
 .music-toggle.playing { background: var(--sage); color: white; border-color: var(--sage); }

@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
       musicToggle.innerHTML = '🎶';
     });
 
+    // Show music toggle button
+    musicToggle.classList.add('visible');
+
     // Animate card out, then hide welcome
     welcomeScreen.classList.add('leaving');
     setTimeout(() => {
